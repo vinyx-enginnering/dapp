@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #c0c3c498 !important;
+  overflow-x: hidden !important;
+  background-image: url("./assets/images/pattern.png");
+  page-break-after: avoid !important;
+  page-break-before: avoid !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dropdown-toggle::after {
+  display: none !important; 
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff !important;
+  background-color: #8c5eff !important;
+}
+
+.nav-link {
+  color: #8c5eff !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #8c5eff !important;
+  border-color: #8c5eee !important;
+}
+
+.card-stuff {
+  color: "red" !important
+}
+
+.add-image {
+  background-color: #0e4dcc !important;
+}
+
+.printer {
+  page-break-inside: auto !important;
+}
+
